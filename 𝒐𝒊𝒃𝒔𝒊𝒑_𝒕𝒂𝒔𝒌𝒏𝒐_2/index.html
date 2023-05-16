@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/7122cd194f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="home">
+        <div class="ab1">
+            <nav>
+                <img src="images/logo.jpg" class="ab2">
+                <ul id="sidemenu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="ab3">
+                <p>Web Developer</p>
+                <h1>Hi,I'm <span>Amit</span><br> Kumar</h1>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="ab1">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1><br>
+                    <h3 class="sub">Skilled and Motivated Web Developer with <br> a Strong Passion for Learning and Open <br>Source Contributions</h3><br>
+                    <p>I am an accomplished web developer, driven by a relentless desire to acquire new skills and make meaningful contributions to open source initiatives. 
+                        My academic pursuits have led me to pursue a Bachelor's degree in Computer Science Engineering from Vellore Institute of Technology. 
+                        I possess a comprehensive understanding of programming languages, including C++, Java, HTML, CSS, MySQL, and JavaScript, which has equipped me to develop robust web solutions. 
+                        Additionally, my proficient communication skills in English and Hindi enable me to collaborate seamlessly with diverse teams.</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div> 
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>APP Development</span><br>To develop applications, games.</li>
+                                <li><span>HTML,CSS,JS</span><br>Web app development.<br></li>
+                                <li><span>GIT</span><br> I am proficient in utilizing GIT to streamline development processes and ensure project success.</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2020-2024</span><br>B-tech in Computer Science and Technology from Vellore Institute Of Technology,Vellore</li>
+                            </ul>
+                        </div>    
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="services">
+        <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Professional Website Design</h2>
+                <p>As a highly skilled web developer, I offer professional website design services that are tailored to meet the unique needs of your business. 
+                    My expertise in programming languages such as HTML, CSS, and JavaScript allows me to create visually stunning, responsive websites that are optimized for performance and user experience. 
+                    Whether you need a simple landing page or a complex e-commerce website, I have the skills and experience to deliver a high-quality product that meets your specifications.
+                    My approach to website design is rooted in collaboration and communication. From the initial consultation to the final product delivery, I work closely with my clients to ensure that their vision is realized in the final design. 
+                    I understand that every business has different needs and goals, and I take the time to understand your unique requirements before starting any design work. 
+                    With my technical expertise and commitment to excellence, you can trust that your website will be in good hands. 
+                    Contact me today to discuss your website design needs and take your online presence to the next level.</p>
+                    <a href="#">Read More</a>
+                    
+            </div>
+            <div>
+                <i class="fa-solid fa-video"></i>
+                <h2>Professional Video Editing</h2>
+                <p>As a highly skilled video editor, I offer professional services to individuals and businesses looking to enhance their visual content. 
+                    With years of experience in the industry, I have developed a keen eye for detail and a deep understanding of the art of storytelling through video. 
+                    My services include video editing, color grading, sound design, and post-production, all tailored to meet the specific needs of my clients. 
+                    I take pride in delivering exceptional results, ensuring that every video I work on is polished and visually engaging. 
+                    Whether you need a promotional video for your business, a highlight reel for your event, or a social media video for your personal brand, I am dedicated to bringing your vision to life. 
+                    With a commitment to quality and a passion for creativity, I am confident in my ability to provide a service that exceeds your expectations.</p>
+                    <a href="#">Read More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-magnifying-glass-chart"></i>
+                <h2>Comprehensive Market Analysis and Research</h2>
+                <p>As a highly experienced market researcher, I offer a comprehensive service that provides businesses with the information they need to make informed decisions. 
+                    My service involves gathering and analyzing data on market trends, consumer behavior, and competitive activity, in order to identify opportunities and challenges that businesses may face. 
+                    Using a range of research methodologies, including surveys, focus groups, and data analysis tools, I provide clients with actionable insights that can help them improve their products and services, develop effective marketing strategies, and increase their market share.
+                    With my service, businesses can gain a deep understanding of their target audience, including their needs, preferences, and buying habits. 
+                    This knowledge can be used to develop products and services that better meet the needs of customers, and to create marketing campaigns that resonate with them. 
+                    Additionally, my market research service helps businesses stay ahead of the competition by identifying emerging trends and potential threats to their market position. 
+                    By working with me, businesses can make more informed decisions, reduce risk, and increase their chances of success in today's highly competitive business environment</p>
+                    <a href="#">Read More</a>
+            </div>
+
+        </div>
+        </div>
+    </div>
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>The application connects you to the talented people around the world.
+                            Download it form play store.</p>
+                            <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>The application help you to listen your favourite songs.
+                            Download it form play store.</p>
+                            <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>The application allows you to show different items from online store.
+                            Download it form play store.</p>
+                            <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i> amitkumar29082002@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> 9304234821</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://twitter.com/"><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/AMIT CV.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Amit.</p>
+        </div>
+    </div>
+    
+<script>
+    var tablinks = document.getElementsByClassName ("tab-links");
+    var tabcontents = document.getElementsByClassName ("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    var sidemenu=document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycby3l6tTXvr355qxJlVjQxmYt_GCx9cnWwVDSvn0Pdf9uu1P4U9bQbO23sWSAGeWsxHY/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => { 
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+    
+</body>
+</html>
