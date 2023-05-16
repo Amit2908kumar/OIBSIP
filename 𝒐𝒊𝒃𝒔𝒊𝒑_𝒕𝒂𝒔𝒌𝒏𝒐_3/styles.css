@@ -1,0 +1,40 @@
+*{
+    background-color: aqua;
+    color:black;
+}
+.container{
+    text-align: center;
+    margin-top: 200px;
+
+}
+input{
+    border-color: rgb(233, 6, 217);
+    box-shadow: 0px 5px 20px rgb(233, 6, 217);
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.btn{
+    background-color: greenyellow;
+    color: black;
+    height: auto;
+    width: 200px;
+    border:none;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: medium;
+
+}
+.button{
+    background-color: coral;
+    color: black;
+    height: auto;
+    width: 200px;
+    border:none;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: medium;
+
+}
+.name{
+    font-size: 18px;
+}
